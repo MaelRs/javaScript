@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação</title>
+</head>
+<body>
+    <header>
+        <h1>Campeonato de AutoModelos</h1>
+        
+        <h2>Para votar no Gol digite 2</h2>
+    </header>
+    <main>
+        <div>
+            <h2>Para votar no Palio digite 1</h2>
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Votar" onclick="votar()">
+            <br><br><select name="flista" id="flista"size='9'></select>
+            <input type="button" value="finalizar" onclick="finalizar()">
+            
+        </div>
+        
+        <div id="res">
+            
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
